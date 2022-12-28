@@ -50,10 +50,19 @@ span {
     color: white;
 }
 
-@media screen and (orientation: portrait){
+#footer img {
+    height: 16px;
+    display: inline-block;
+}
+
+@media screen and (orientation: portrait) {
     #footer span {
         font-size: 32px;
         margin-bottom: 20px;
+    }
+
+    #footer img {
+        height: 32px;
     }
 }
 
